@@ -1,8 +1,8 @@
 # Pizza Joint Online Order
 
-### _Online Pizza Order_###
+### _Online Pizza Order_
 
-## Technoligies Used:##
+## Technoligies Used:
 
 * JavaScript
 * HTML
@@ -12,10 +12,10 @@
 * Git
 * Github
 
-## Description##
+## Description
 Create a website for a pizza restaurant where a user(customer) can choose one or more individual toppings, pizza size, and see the final cost. 
 
-## Tests:##
+## Tests:
 
 Test1: Create a constructor for pizza.
 Code: let pizza = {}; pizza.sizes = ["Large", "Medium", "Small"]; pizza.toppings =     ["Pineapple", "Pepperoni", "Peperoccini", "Anchovies", "Black Olives"]
@@ -31,8 +31,8 @@ Code: function Pizza (size, toppings, price) {
 Output: Passed. 
 
 Test3: Create prototype for toppings.
-Code: Pizza.prototype.chooseToppings = function () {
-    this.toppings = chooseToppings(pizza.toppings);
+Code: Pizza.prototype.pickToppings = function () {
+    this.toppings = pickToppings(pizza.toppings);
 }
 Output: Passed. 
 
@@ -40,3 +40,4 @@ Test4: Create protype for pizza size.
 Code: Pizza.prototype.chooseSize = function () {
   this.size = chooseSize(pizza.size);
 }
+Output: Passed. 
