@@ -30,8 +30,13 @@ Code: function Pizza (size, toppings, price) {
 }
 Output: Passed. 
 
-Test3: Build prototype for toppings.
+Test3: Create prototype for toppings.
 Code: Pizza.prototype.chooseToppings = function () {
     this.toppings = chooseToppings(pizza.toppings);
 }
-Output: 
+Output: Passed. 
+
+Test4: Create protype for pizza size. 
+Code: Pizza.prototype.chooseSize = function () {
+  this.size = chooseSize(pizza.size);
+}

@@ -13,3 +13,6 @@ function Pizza (size, toppings, price) {
 
 let myNewPizza = new Pizza(pizza.size, pizza.toppings, pizza.price);
 
+Pizza.prototype.chooseToppings = function () {
+  this.toppings = chooseToppings(pizza.toppings);
+}
