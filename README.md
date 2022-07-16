@@ -19,7 +19,7 @@ Create a website for a pizza restaurant where a user(customer) can choose one or
 
 Test1: Create a constructor for pizza.
 Code: let pizza = {}; pizza.sizes = ["Large", "Medium", "Small"]; pizza.toppings =     ["Pineapple", "Pepperoni", "Peperoccini", "Anchovies", "Black Olives"]
-pizza.prices = [22,18,14];
+pizza.prices = [32,28,24];
 Output: Return an array for pizza. 
 
 Test2: Create a function for pizza.
@@ -40,4 +40,13 @@ Test4: Create protype for pizza size.
 Code: Pizza.prototype.chooseSize = function () {
   this.size = chooseSize(pizza.size);
 }
+Output: Passed. 
+
+Test5: Create a function prototype for completing pizza selections and thus return final price. 
+Code: Pizza.prototype.completePizza = function (pickToppings, chooseSize) {
+    if (pizza.pickToppings >=4) {
+    return "Delicious Toppings!";
+        console.log(completePizza);
+    }
+};
 Output: Passed. 
