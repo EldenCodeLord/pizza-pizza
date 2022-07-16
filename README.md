@@ -50,3 +50,16 @@ Code: Pizza.prototype.completePizza = function (pickToppings, chooseSize) {
     }
 };
 Output: Passed. 
+
+### Setup/Installation Requirements: 
+* Clone this repository to your desktop.
+* Navigate to the top level of the directory.
+* Open index.html in your browser.
+
+### Known Bugs:
+* None
+
+### License
+* N/A
+
+__Copyright (c)__2022 Manuel Raygoza__ 
