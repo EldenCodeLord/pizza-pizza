@@ -25,5 +25,8 @@ Pizza.prototype.completePizza = function (pickToppings, chooseSize) {
   if (pizza.pickToppings >=4) {
   return "Delicious Toppings!";
       console.log(completePizza);
-  }
-};
+  } else if 
+    (pizza.chooseSize === size) {
+      return (pizza.size, pizza.pickToppings, pizza.price);
+    }
+  };
